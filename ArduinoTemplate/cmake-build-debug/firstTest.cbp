@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="firstTest"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="firstTest">
+				<Option output="D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/cmake-build-debug/firstTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/../arduino/cores"/>
+					<Add directory="D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/../arduino/tools"/>
+					<Add directory="D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/../arduino/variants/mega"/>
+					<Add directory="D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/../arduino/libraries/Wire/src"/>
+					<Add directory="D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/../arduino/libraries/SPI/src"/>
+					<Add directory="D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/../arduino/libraries/SoftwareSerial/src"/>
+					<Add directory="D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/../arduino/libraries/HID/src"/>
+					<Add directory="D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/../arduino/libraries/EFPROM/src"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0/x86_64-w64-mingw32"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0/backward"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 firstTest"/>
+					<CompileFile command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="firstTest/fast">
+				<Option output="D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/cmake-build-debug/firstTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/../arduino/cores"/>
+					<Add directory="D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/../arduino/tools"/>
+					<Add directory="D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/../arduino/variants/mega"/>
+					<Add directory="D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/../arduino/libraries/Wire/src"/>
+					<Add directory="D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/../arduino/libraries/SPI/src"/>
+					<Add directory="D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/../arduino/libraries/SoftwareSerial/src"/>
+					<Add directory="D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/../arduino/libraries/HID/src"/>
+					<Add directory="D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/../arduino/libraries/EFPROM/src"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0/x86_64-w64-mingw32"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include/c++/7.2.0/backward"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../include"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 firstTest/fast"/>
+					<CompileFile command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/main.cpp">
+			<Option target="firstTest"/>
+		</Unit>
+		<Unit filename="D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

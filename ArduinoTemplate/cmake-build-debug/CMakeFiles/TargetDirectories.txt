@@ -1,0 +1,3 @@
+D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/cmake-build-debug/CMakeFiles/ArduinoTemplate.dir
+D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/cmake-build-debug/CMakeFiles/rebuild_cache.dir

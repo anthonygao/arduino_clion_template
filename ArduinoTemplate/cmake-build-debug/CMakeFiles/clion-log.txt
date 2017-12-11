@@ -1,0 +1,4 @@
+D:\Develop\JetBrains\CLion2017.3\bin\cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\Develop\IdeaProjects\ClionProjects\ArduinoTemplate
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Develop/IdeaProjects/ClionProjects/ArduinoTemplate/cmake-build-debug
